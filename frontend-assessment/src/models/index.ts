@@ -20,7 +20,7 @@ export interface ProjectDetails {
       sNo: number;
       percentageFunded: number;
       amountPledged: number;
-    }[];
+    }[] | any;
   }
 
   export interface ModalProps {

@@ -36,7 +36,7 @@ const Table: React.FC<TableProps> = ({ data }) => {
           </tr>
         </thead>
         <tbody>
-          {currentData.map((row) => (
+          {currentData.map((row:any) => (
             <tr key={row.sNo}>
               <td>{row['s.no']}</td>
               <td>{row['percentage.funded']}%</td>
