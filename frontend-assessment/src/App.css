@@ -1,0 +1,20 @@
+.app-wrapper{
+    display: flex;
+    flex-direction: column;
+    min-width: 100vw;
+    min-height: 100vh;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  .header-text{
+    font-weight: bold;
+    cursor:pointer;
+    color:#459f6f;
+    font-size: 20px;
+    margin-left: 5vw
+  }

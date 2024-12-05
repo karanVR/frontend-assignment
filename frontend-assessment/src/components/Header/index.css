@@ -1,0 +1,17 @@
+.header-container {
+    width: 100dvw;
+    height: 5dvh;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .logo > img {
+    width:170px;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+  }
+  
