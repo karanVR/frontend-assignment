@@ -7,9 +7,9 @@ const Table: React.FC<TableProps> = ({ data }) => {
   const [filteredData, setFilteredData] = useState<any>(data);
   const [currentPage, setCurrentPage] = useState(1);
 
-  // Percentage Funded filters
-  const [minPercentage, setMinPercentage] = useState(0);
-  const [maxPercentage, setMaxPercentage] = useState(
+
+  const [minPercentage] = useState(0);
+  const [maxPercentage] = useState(
     data.reduce((max: number, row: any) => {
       return row['percentage.funded'] > max ? row['percentage.funded'] : max;
     }, 0)
@@ -17,9 +17,9 @@ const Table: React.FC<TableProps> = ({ data }) => {
   const [minSliderValue, setMinSliderValue] = useState(0);
   const [maxSliderValue, setMaxSliderValue] = useState(maxPercentage);
 
-  // Amount Pledged filters
-  const [minAmount, setMinAmount] = useState(0);
-  const [maxAmount, setMaxAmount] = useState(
+
+  const [minAmount] = useState(0);
+  const [maxAmount] = useState(
     data.reduce((max: number, row: any) => {
       return row['amt.pledged'] > max ? row['amt.pledged'] : max;
     }, 0)
