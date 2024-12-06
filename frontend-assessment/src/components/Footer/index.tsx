@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css'; 
+import saasLabsLogo from '../../assets/logo.png'
 
 const Footer: React.FC = () => {
   return (
@@ -19,6 +20,7 @@ const Footer: React.FC = () => {
         </ul>
       </div>
       <div className="footer-section">
+        <img className='footer-logo' src={saasLabsLogo}/>
         <p className="footer-address">
           United States: 355 Bryant Street, #403 San Francisco California 94107
         </p>

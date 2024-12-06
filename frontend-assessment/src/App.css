@@ -5,10 +5,12 @@
     min-height: 100vh;
     justify-content: space-between;
     flex-grow: 1;
+    background-color: #fbf8f8;
 }
 
 * {
     box-sizing: border-box;
+    /* background-color:#fbf8f8  */
   }
 
   .header-text{

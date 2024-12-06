@@ -43,7 +43,6 @@ function App() {
   return (
     <div className='app-wrapper'>
     <Header />
-    <p className="header-text">Analytics Dashboard a Saaslabs Product</p>
       {isLoading ? <Loader />:<Table data={projectData} />}
       <Footer />
       {isModalOpen && (

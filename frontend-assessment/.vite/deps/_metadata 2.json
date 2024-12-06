@@ -1,49 +1,40 @@
 {
-  "hash": "8346cc53",
+  "hash": "199e13d9",
   "configHash": "91457383",
-  "lockfileHash": "328b3a8d",
-  "browserHash": "cab40076",
+  "lockfileHash": "5b37d140",
+  "browserHash": "f2495ec3",
   "optimized": {
     "react/jsx-dev-runtime": {
       "src": "../../node_modules/react/jsx-dev-runtime.js",
       "file": "react_jsx-dev-runtime.js",
-      "fileHash": "37708ce6",
+      "fileHash": "08482c18",
       "needsInterop": true
     },
     "react": {
       "src": "../../node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "9fe16212",
+      "fileHash": "a8e0ea31",
       "needsInterop": true
     },
     "react-dom": {
       "src": "../../node_modules/react-dom/index.js",
       "file": "react-dom.js",
-      "fileHash": "ca32f2c6",
+      "fileHash": "c060cd40",
       "needsInterop": true
     },
     "react-dom/client": {
       "src": "../../node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "13f786d5",
-      "needsInterop": true
-    },
-    "lodash.debounce": {
-      "src": "../../node_modules/lodash.debounce/index.js",
-      "file": "lodash__debounce.js",
-      "fileHash": "d3b06837",
+      "fileHash": "42a51e76",
       "needsInterop": true
     }
   },
   "chunks": {
-    "chunk-MXRL7WSR": {
-      "file": "chunk-MXRL7WSR.js"
+    "chunk-MME57LVE": {
+      "file": "chunk-MME57LVE.js"
     },
-    "chunk-JCH2SJW3": {
-      "file": "chunk-JCH2SJW3.js"
-    },
-    "chunk-BUSYA2B4": {
-      "file": "chunk-BUSYA2B4.js"
+    "chunk-GFWMZNU4": {
+      "file": "chunk-GFWMZNU4.js"
     }
   }
 }
